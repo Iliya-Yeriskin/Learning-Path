@@ -50,9 +50,11 @@ while True:
             print("Counter:" + str(counter) +"   "+"Number: "+str(num))
             counter = counter+1
             num = (randint(1, 12))
+        if num == 12:
+            print("Your num is: "+str(num))
     else:
         print("Enter ONLY 1-3!!")
-    exit = input("Do you want to exit? (y/n)")
+    exit = input("Do you want to exit? (y/n): ")
     if exit != "y" and exit != "yes":
         print("\n-------------------\n")
         continue
