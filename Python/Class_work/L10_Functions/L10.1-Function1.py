@@ -1,6 +1,6 @@
 #Function
 from time import sleep
-##################
+#################
 def Market():
     print("Hello\n---------------------\nToday in the Market:\nTomato = 3₪\nCucumber = 2₪\nCoca-Cola = 5₪\nChicken = 20₪")
     tomato = int(input("Enter How many Tomatos would you like? "))
